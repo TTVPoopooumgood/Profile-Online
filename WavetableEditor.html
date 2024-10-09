@@ -363,23 +363,13 @@ function update()
 </style>
 </head>
 <body style="font-family: arial">
-<h1>bitluni's Wavetable Editor</h1>
+<h1>PPUG's Profile Editor</h1>
 <div style="max-width: 700px">
 	<div class="menu">
 		<span class="project block">
 			<button title="Open project file" onclick="document.getElementById('openproject').click()">&#x1F4C2;</button> 
 			<input id="openproject" type="file" onchange="loadProject(event)" accept=".json" hidden>
 			<button title="Generate project file" onclick="saveProject();">&#128190;</button>
-		</span>
-		<span class="block soundfiles">
-			<button title="Add sound files" onclick="document.getElementById('addsounds').click()">&#127925;</button>
-			<input id="addsounds" type="file" onchange="addFiles(event)" accept="audio/*" multiple hidden>
-			<button title="Export wavetable header" onclick="saveHeader();" style="font-size: 15px; font-weight:bold">.h</button>
-		</span>
-		<span class="block options">
-			<span class="option">name <input id="name" type="text" value="sounds" style="width: 80px" onchange="update()"></span>
-			<span class="option"><input id="normalize" type="checkbox" checked onchange="update()">normalize</span>
-			<span class="option">sampling rate <input id="samplerate" type="number" value="22050" style="width: 60px" onchange="update()"></span>
 		</span>
 	</div>
 	<div class="hidden" id="files">
@@ -390,5 +380,5 @@ function update()
 	<div id="sounds"></div>
 </div>
 
-<small>check out <a href="https://youtube.com/bitlunislab">bitluni's lab</a></small>
+<small>check out <a href="Https://github.com/ttvpoopooumgood">PPUG's lab</a></small>
 </body></html>
